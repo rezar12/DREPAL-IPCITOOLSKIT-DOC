@@ -55,3 +55,9 @@ click on save and go to New project to connect.
 PRESENTATION OF THE DIFFERENT PANELS
 -------------------------------------
 
+* all panels
+.. image:: Images/Group8.png
+  :width: 400
+  :alt: New project screen 
+
+
