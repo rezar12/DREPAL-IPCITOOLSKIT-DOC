@@ -27,7 +27,6 @@ In the menu you will find all possible operations (see table of available operat
 .. list-table:: Operations and Descriptions
    :widths: 25 75
    :header-rows: 1
-
    * - Operations
      - Sequence Import
      - Quality Management
@@ -39,7 +38,6 @@ In the menu you will find all possible operations (see table of available operat
      - Mutation Matrix (SNPs)
      - Variants Annotations
      - Directory Management
-     
    * - Description
      - In this section import raw sequences and references (host and pathogen.
      - In this section, view the quality of the reads and cut them if necessary.
@@ -48,7 +46,7 @@ In the menu you will find all possible operations (see table of available operat
      - Kept the corresponding share of pathogens in each reads.
      - It is optional to visualise the host, pathogen and other parts contained in each read.
      - This is the part of the analysis that consists of finding the mutations by using a number of technologies.
-     - The Mutation Matrix (for SNPs) allows us to have an overview of the SNP type mutations for all reads in a spreadsheet facilitating a number of downstream   statistical analyses.
+     - The Mutation Matrix (for SNPs) allows us to have an overview of the SNP type mutations for all reads in a spreadsheet facilitating a number of downstream          statistical analyses.
      - Used to assign functional information to mutations via Snpeff and SnpSift.
      - This section allows for the dumping of what appears to be the scan directory to save disk resources once the scan is complete or in the event of an error.
      
