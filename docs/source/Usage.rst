@@ -3,11 +3,11 @@ Usage
 
 The DREPAL-IPCINGSTOOLSKIT can be used in two ways. Mode (1) (Analysis directly on the server) and Mode (2) (Multi-instance deployment) usable by many users at the same time.
 
-.. image:: Images/Group 1 (2).png
+.. image:: Images/mode1.png
   :width: 400
   :alt: Analysis directly on the server
 
-.. image:: Images/SharedScreenshot.jpg
+.. image:: Images/mode2.png
   :width: 400
   :alt: Multi-instance deployment
 
