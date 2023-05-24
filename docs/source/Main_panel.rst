@@ -16,7 +16,6 @@ how to :ref:`installation` the project.
    Reference_Indexed
    Host_substract
    Pathogen_Extraction
-   K_DoubleDigital
    Variant_Calling
    Mutation_Matrix
    Variant_Annotation
