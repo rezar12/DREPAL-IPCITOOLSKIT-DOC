@@ -5,12 +5,12 @@ The DREPAL-IPCINGSTOOLSKIT can be used in two ways. Mode (1) (Analysis directly 
 
 * Mode 1
 .. image:: Images/mode1.png
-  :width: 400
+  :width: 300
   :alt: Analysis directly on the server
 
 * Mode 2
 .. image:: Images/mode2.png
-  :width: 400
+  :width: 200
   :alt: Multi-instance deployment
 
 
