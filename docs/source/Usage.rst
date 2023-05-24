@@ -30,12 +30,24 @@ When you open the application, you are asked for a username and password. This d
   :width: 600
   :alt: Login Screen
 
+click on save and go to New project to connect.
+
 .. Note::
   
-  the use of account creation makes it possible to instantiate a directory for saving the analyzes of the user.  ``"Workspaces : /home/Username"``
+  the use of account creation makes it possible to instantiate a directory for saving the analyzes of the user.  ``"Workspaces : /home/Username"`` 
 
 
-* New project by default compte
+* New project by default account
+
 .. image:: Images/SharedScreenshot2.jpg
   :width: 600
   :alt: New project by admin compte
+  
+* New project screen by  default account
+.. image:: Images/Group7.png
+  :width: 600
+  :alt: New project screen 
+  
+.. Note::
+ 
+  When you are logged in with the default account ignore the warning message.
