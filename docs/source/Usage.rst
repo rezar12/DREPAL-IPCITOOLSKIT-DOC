@@ -45,7 +45,7 @@ click on save and go to New project to connect.
   
 * New project screen by  default account
 .. image:: Images/Group7.png
-  :width: 600
+  :width: 400
   :alt: New project screen 
   
 .. Note::
