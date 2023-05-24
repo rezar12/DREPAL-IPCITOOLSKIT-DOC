@@ -10,7 +10,7 @@ The DREPAL-IPCINGSTOOLSKIT can be used in two ways. ``"Mode (1)"`` (Analysis dir
 
 * Mode 2
 .. image:: Images/mode2.png
-  :width: 250
+  :width: 300
   :alt: Multi-instance deployment
 
 .. Note::
@@ -27,7 +27,6 @@ When you open the application, you are asked for a username and password. This d
 .. image:: Images/SharedScreenshot.jpg
   :width: 600
   :alt: Login Screen
-  
   
   
  * New project by default compte
