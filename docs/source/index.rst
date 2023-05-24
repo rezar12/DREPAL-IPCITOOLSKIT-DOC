@@ -16,4 +16,5 @@ Contents
 
    Installation
    Usage
+   Left_panel
    Bibliography
