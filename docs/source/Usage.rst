@@ -57,7 +57,7 @@ PRESENTATION OF THE DIFFERENT PANELS
 
 * all panels
 .. image:: Images/Group8.png
-  :width: 400
+  :width: 650
   :alt: New project screen 
 
 
