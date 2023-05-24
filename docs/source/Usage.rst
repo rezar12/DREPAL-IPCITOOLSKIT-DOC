@@ -23,13 +23,19 @@ Login Screen
 ~~~~~~~~~~~~
 When you open the application, you are asked for a username and password. This depends on how you are using the application. If it is "Mode (1)" where you are the only one using the application, you can create an account or if it is a quick scan, you can connect with the default account ``"username: admin"`` , ``"password: admin"`` by clicking on the new project. 
 
+
 * Create an account
+
 .. image:: Images/SharedScreenshot.jpg
   :width: 600
   :alt: Login Screen
+
+.. Note::
   
-  
- * New project by default compte
+  the use of account creation makes it possible to instantiate a directory for saving the analyzes of the user.  ``"Workspaces : /home/Username"``
+
+
+* New project by default compte
 .. image:: Images/SharedScreenshot2.jpg
   :width: 600
   :alt: New project by admin compte
