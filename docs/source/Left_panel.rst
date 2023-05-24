@@ -1,5 +1,5 @@
 
-LEFT PANEL
+Left panel
 ==========
 
 USE OF DISK RESSOURCES
