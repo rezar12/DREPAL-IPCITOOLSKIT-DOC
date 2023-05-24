@@ -19,9 +19,10 @@ In the menu you will find all possible operations (see table of available operat
 
 .. image:: Images/operation.png
   :width: 280
-  :alt: Ressource Disk
+  :alt: Operations menu
 
-.. list-table:: Title
+
+.. list-table:: Operations and Descriptions
    :widths: 25 75
    :header-rows: 1
 
