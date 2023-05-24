@@ -21,6 +21,8 @@ In the menu you will find all possible operations (see table of available operat
   :width: 280
   :alt: Operations menu
 
+.. Note::
+  DREPAL-IPCINGSTOOLSKIT is made up of autumn pipelines but to be executed sequentially, i.e. certain operations are conditioned by the result of those which precede them.
 
 .. list-table:: Operations and Descriptions
    :widths: 25 75
