@@ -51,3 +51,7 @@ click on save and go to New project to connect.
 .. Note::
  
   When you are logged in with the default account ignore the warning message.
+
+PRESENTATION OF THE DIFFERENT PANELS
+-------------------------------------
+
