@@ -25,18 +25,15 @@ In the menu you will find all possible operations (see table of available operat
   DREPAL-IPCINGSTOOLSKIT is made up of autumn pipelines but to be executed sequentially, i.e. certain operations are conditioned by the result of those which precede them.
 
 .. list-table:: Title
-   :widths: 25 25 50
+   :widths: 25  75
    :header-rows: 1
 
    * - Heading row 1, column 1
      - Heading row 1, column 2
-     - Heading row 1, column 3
    * - Row 1, column 1
      -
-     - Row 1, column 3
    * - Row 2, column 1
      - Row 2, column 2
-     - Row 2, column 3
 
 
 .. list-table:: Operations and Descriptions
