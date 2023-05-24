@@ -1,8 +1,8 @@
 
-Left panel
+Left Panel
 ==========
 
-USE OF DISK RESSOURCES
+Use of disk ressources
 -----------------------
 * **Donut diagram of free and used space**
 
@@ -11,3 +11,6 @@ This diagram gives you an overview of the available disk space on the server for
 .. image:: Images/usagefree.jpg
   :width: 400
   :alt: Ressource Disk
+
+Operations menu
+----------------
