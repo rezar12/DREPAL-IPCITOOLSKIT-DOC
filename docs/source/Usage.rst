@@ -13,5 +13,5 @@ System architecture: Linux- 64-bit x86.
 Minimum ~ 2.5 GB disk space to download and install.
 
 .. image:: Images/SharedScreenshot.jpg
-  :width: 400
+  :width: 600
   :alt: Login Screen
