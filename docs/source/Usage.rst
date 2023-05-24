@@ -12,6 +12,6 @@ Operating system: Ubuntu 20.04.5 LTS and update version (especially all Linux ve
 System architecture: Linux- 64-bit x86.
 Minimum ~ 2.5 GB disk space to download and install.
 
-.. image:: path/filename.png
+.. image:: Images/Sha
   :width: 400
   :alt: Alternative text
