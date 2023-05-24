@@ -15,4 +15,13 @@ Contents
 .. toctree::
 
    Sequence_Import
+   Quality_Controle
+   Reference_Indexed
+   Host_substract
+   Pathogen_Extraction
+   K_DDS
+   Variant_Calling
+   Mutation_Matrix
+   Variant_Annotation
+   Directory_Management
 
