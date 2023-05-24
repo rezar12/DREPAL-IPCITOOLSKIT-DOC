@@ -17,3 +17,7 @@ how to :ref:`installation` the project.
    Host_substract
    Pathogen_Extraction
    Variant_Calling
+   Mutation_Matrix
+   Variant_Annotation
+   Directory_Management
+   
