@@ -1,6 +1,6 @@
 
 K Double Digital Soustraction
-==============================
+===============================
 
 In the menu you will find all possible operations (see table of available operations), from importing files to emptying the analysis directory.
 
