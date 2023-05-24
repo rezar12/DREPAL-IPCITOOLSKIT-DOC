@@ -43,13 +43,15 @@ In the menu you will find all possible operations (see table of available operat
    * - K DDS (Double Digital Subtraction)
      - It is optional to visualise the host, pathogen and other parts contained in each read.
    * - Variants Calling 
-     - This is the part of the analysis that consists of finding the mutations by using a number of technologies.
+     - This is the part of the analysis that consists of finding the mutations by using a number of
+       technologies.
    * - Mutation Matrix (SNPs)
-     - The Mutation Matrix (for SNPs) allows us to have an overview of the SNP type mutations for all reads in a spreadsheet facilitating a number of downstream          statistical analyses.
+     - The Mutation Matrix (for SNPs) allows us to have an overview of the SNP type mutations for all reads                                                              in a spreadsheet facilitating a number of downstream statistical analyses.
    * - Variants Annotations
      - Used to assign functional information to mutations via Snpeff and SnpSift.
    * - Directory Managemen
-     - This section allows for the dumping of what appears to be the scan directory to save disk resources once the scan is complete or in the event of an error.
+     - This section allows for the dumping of what appears to be the scan directory to save disk resources once 
+       the scan is complete or in the event of an error.
 
      
      
