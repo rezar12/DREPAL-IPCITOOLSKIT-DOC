@@ -7,7 +7,7 @@ how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   This project is under active development .
 
 .. toctree::
 
@@ -21,4 +21,6 @@ how to :ref:`installation` the project.
    Mutation_Matrix
    Variant_Annotation
    Directory_Management
+   
+   
 
