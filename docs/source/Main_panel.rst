@@ -14,8 +14,5 @@ Contents
 
 .. toctree::
 
-   Installation
-   Usage
-   Left_panel
-   Bibliography
+   Sequence Import
 
