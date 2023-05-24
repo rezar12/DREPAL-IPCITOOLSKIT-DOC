@@ -17,4 +17,5 @@ Contents
    Installation
    Usage
    Left_panel
+   Main_Panel
    Bibliography
