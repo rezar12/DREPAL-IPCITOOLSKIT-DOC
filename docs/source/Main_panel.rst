@@ -20,4 +20,5 @@ how to :ref:`installation` the project.
    Mutation_Matrix
    Variant_Annotation
    Directory_Management
+   Double_DigitalSoustraction
    
