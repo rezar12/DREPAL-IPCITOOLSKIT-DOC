@@ -9,7 +9,7 @@ Use of disk ressources
 This diagram gives you an overview of the available disk space on the server for your analyses, consult it after each analysis to establish efficient resource management.
 
 .. image:: Images/usagefree.jpg
-  :width: 280
+  :width: 200
   :alt: Ressource Disk
 
 Operations menu
