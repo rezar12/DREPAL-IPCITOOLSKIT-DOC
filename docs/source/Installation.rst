@@ -230,3 +230,5 @@ Open your browser and paste the link below in the search bar.
 
 * example of a schema for deploying DREPAL-IPCINGSTOOLSKIT on a local network :
 
+.. image:: Images/Group_10.png
+
