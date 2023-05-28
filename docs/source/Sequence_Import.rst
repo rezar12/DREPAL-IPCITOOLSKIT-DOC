@@ -2,7 +2,7 @@
 Sequence Import
 ===============
 
-In the menu you will find all possible operations (see table of available operations), from importing files to emptying the analysis directory.
+All the analyses in DREPAL-IPCINGSTOOLSKIT are based on the import of sequences from clinical isolates and references.
 
 .. image:: Images/usagefree.jpg
   :width: 280
