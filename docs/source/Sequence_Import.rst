@@ -5,6 +5,7 @@ Sequence Import
 All the analyses in DREPAL-IPCINGSTOOLSKIT are based on the import of sequences from clinical isolates and references.
 
 .. image:: Images/seqimport.png
+  :width: 500
   :alt: main seq import
 
 Raws Files (fastq,gz)
