@@ -226,7 +226,7 @@ Open your browser and paste the link below in the search bar.
    http://localhost:8501
    
 .. note::
-**If you want to use the app with several people on your local network, you can continue with the following configuration**
+   **If you want to use the app with several people on your local network, you can continue with the following configuration**
 
 Deploy DREPAL-IPCINGSTOOLSKIT for many users
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
