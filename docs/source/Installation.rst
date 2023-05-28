@@ -217,7 +217,7 @@ Use the following command to start the server :
 .. _Browser:
 
 In your web browser
--------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Open your browser and paste the link below in the search bar.
 
@@ -229,7 +229,7 @@ Open your browser and paste the link below in the search bar.
    **If you want to use the app with several people on your local network, you can continue with the following configuration**
 
 Deploy DREPAL-IPCINGSTOOLSKIT for many users
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 
 - example of a schema for deploying DREPAL-IPCINGSTOOLSKIT on a local network :
 
@@ -242,7 +242,8 @@ creates several instances of DREPAL-IPCINGSTOOLSKIT on your server *(duplicate a
 
 - Step 2 : Assign a unique port to each instances
 
-change the default port in the ``"DREPAL-IPCINGSTOOLSKIT/.streamlit/config.toml"`` file ``"(serverPort = 8501)"`` to the port you choose for the instance you are configuring.
+change the default port in the ``"DREPAL-IPCINGSTOOLSKIT/.streamlit/config.toml"`` file 
+``"(serverPort = 8501)"`` to the port you choose for the instance you are configuring.
 
 - Step 3 : Create SFTP server on your server
 
@@ -325,3 +326,12 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
 
 .. image:: Images/DiaglocalNet.png
 
+2. Run all instances
+
+Open terminals equivalent to the number of instances and in each of them activate the conda and virtualenv environments then launch each of these instances via ``"streamlit run APP/app.py"``. 
+
+3. Access to the server from your local machine 
+
+To enable users to access the application from their local machine, they will paste the following link into their browser:
+``"http://serverip:port"`` to obtain the server's network address, type the "ifconfig" command on your server. In the example in our diagram, client machines will access DREPAL-IPCINGSTOOLSKIT by typing the following link into their browser:
+``"http://10.0.2.15:8501"`` if this port (8501) is not assigned to an instance currently in use.
