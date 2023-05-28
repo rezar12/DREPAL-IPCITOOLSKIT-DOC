@@ -27,7 +27,12 @@ Method 1
 ~~~~~~~~~
 the first import method is the most conventional and consists of using the uploaded section.
 
+.. image:: Images/importless4gb.png
+  :width: 500
+  :alt: main seq import
 
+.. note::
+  Only use it if the file size does not exceed 4Gb.
 
 
 Method 2
