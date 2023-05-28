@@ -235,7 +235,6 @@ Deploy DREPAL-IPCINGSTOOLSKIT for many users
 
 .. image:: Images/Group10.png
 
-
 - Step 1 : Creates many instances
 
 creates several instances of DREPAL-IPCINGSTOOLSKIT on your server *(duplicate and rename)* example for three instances:
@@ -269,6 +268,7 @@ change the default port in the ``"DREPAL-IPCINGSTOOLSKIT/.streamlit/config.toml"
    sudo addgroup sftp
  
 **- Create sftp user for each instance : example for user 1**
+
 .. code-block:: console
    sudo adduser sftpclient1
 
@@ -279,8 +279,8 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
 .. code-block:: console
    sudo usermod -a -G sftp sftpclient1
    
-   
 **- Create the access directory for each user  : example for user 1**
+
 .. code-block:: console
    sudo mkdir -p /var/sftp/User1/Upload
    sudo chown root:root /var/sftp/User1
@@ -288,11 +288,12 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
    sudo chown sftpclient1:sftpclient1 /var/sftp/User1/Upload
    
 **- Open the ssh configuration file and add the following lines for each user created : example for user 1**
+
 .. code-block:: console
    sudo nano /etc/ssh/sshd_config
-   
-   
+      
 **- Paste the following lines at the end of the configuration file : example for user 1**
+
 .. code-block:: console
    Match User sftpclient1
           ChrootDirectory /var/sftp/User1
