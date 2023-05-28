@@ -297,13 +297,13 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
    sudo chmod 755 /var/sftp/User1
    sudo chown sftpclient1:sftpclient1 /var/sftp/User1/Upload
    
-- Open the ssh configuration file and add the following lines for each user created : example for user 1
+   - Open the ssh configuration file and add the following lines for each user created : example for user 1
 
 .. code-block:: console
 
    sudo nano /etc/ssh/sshd_config
       
-- Paste the following lines at the end of the configuration file : example for user 1
+   - Paste the following lines at the end of the configuration file : example for user 1
 
 .. code-block:: console
 
@@ -314,7 +314,7 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
           PermitTTY no
           ForceCommand internal-sftp
 
-- Restart your ssh 
+   - Restart your ssh 
    
 .. code-block:: console
 
@@ -322,7 +322,7 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
    
 - Step 4 : Run app :
 
-- Our  LAN (Local Area Network) for the test
+   - Our  LAN (Local Area Network) for the test
    
 .. image:: Images/DiaglocalNet.png
 
