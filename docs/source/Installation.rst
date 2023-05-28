@@ -344,7 +344,7 @@ http://10.0.2.15:8501 if this port (8501) is not assigned to an instance current
 
 - the default ssh port: 22
 
-Les informations  d'accès par ssh pour chaque instances sont très importante pour les utilisateurs.
+The ssh access information for each instance is very important for users.
 
 .. warning::
-   Pour ce type de configuration en multi-instance nos vous prierons d'avoir une infracstructure robuste.
+   For this type of multi-instance configuration, we recommend that you have a robust infrastructure.
