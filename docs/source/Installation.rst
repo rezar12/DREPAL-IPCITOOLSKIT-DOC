@@ -334,8 +334,12 @@ Open terminals equivalent to the number of instances and in each of them activat
 
 To enable users to access the application from their local machine, they will paste the following link into their browser:
 "http://serverip:port" to obtain the server's network address, type the "ifconfig" command on your server. In the example in our diagram, client machines will access DREPAL-IPCINGSTOOLSKIT by typing the following link into their browser:
-http://10.0.2.15:8501 if this port (8501) is not assigned to an instance currently in use. Don't forget to give the *ssh* parameters associated with each instance to the user example for user 1: 
-- the host: sftpclient1@10.0.2.15  
+http://10.0.2.15:8501 if this port (8501) is not assigned to an instance currently in use. Don't forget to give the *ssh* parameters associated with each instance to the user example for user 1:
+
+- the host: sftpclient1@10.0.2.15
+
 - The user name: sftpclient1
+
 - Password: : ********
+
 - the default ssh port: 22
