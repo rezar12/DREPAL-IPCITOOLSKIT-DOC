@@ -43,7 +43,7 @@ To use DREPAL-IPCINGSTOOLKIT, first install it using git for clone repository:
 - Install as root
 .. code-block:: console
 
-   sudo -su
+   sudo su
    
 - Download Miniconda
 .. code-block:: console
@@ -228,7 +228,78 @@ Open your browser and paste the link below in the search bar.
 .. note::
 **If you want to use the app with several people on your local network, you can continue with the following configuration**
 
+Deploy DREPAL-IPCINGSTOOLSKIT for many users
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 * example of a schema for deploying DREPAL-IPCINGSTOOLSKIT on a local network :
 
-.. image:: Images/Group 10.png
+.. image:: Images/Group10.png
 
+
+* Step 1 : Creates many instances
+
+creates several instances of DREPAL-IPCINGSTOOLSKIT on your server *(duplicate and rename)* example for three instances:
+``"DREPAL-IPCINGSTOOLSKIT8501"`` ``"DREPAL-IPCINGSTOOLSKIT8502"`` and ``"DREPAL-IPCINGSTOOLSKIT8503"``. 8501.8502 and 8503 will be the ports allocated to these different instances.
+
+* Step 2 : Assign a unique port to each instances
+
+change the default port in the ``"DREPAL-IPCINGSTOOLSKIT/.streamlit/config.toml"`` file ``"(serverPort = 8501)"`` to the port you choose for the instance you are configuring.
+
+* Step 3 : Create SFTP server on your server
+
+** Instal ssh
+.. code-block:: console
+   sudo apt install ssh
+
+** Enable and Start ssh 
+.. code-block:: console
+   sudo systemctl enable ssh
+   sudo systemctl start ssh
+   
+** check that your ssh is activated
+.. code-block:: console
+   sudo systemctl status ssh
+
+** Create sftp group
+.. code-block:: console
+   sudo addgroup sftp
+ 
+** Create sftp user for each instance : example for user 1
+.. code-block:: console
+   sudo adduser sftpclient1
+
+.. note::
+the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the number of users to be created.As in the example above, if ``"sftpclient1"`` is the first user, the next users will be ``"sftpclient2"``, ... ``"sftpclientn"`` or n is the last user.This will apply to future orders :
+
+** Add users to the sftp group : example for user 1
+.. code-block:: console
+   sudo usermod -a -G sftp sftpclient1
+   
+** Create the access directory for each user  : example for user 1
+.. code-block:: console
+   sudo mkdir -p /var/sftp/User1/Upload
+   sudo chown root:root /var/sftp/User1
+   sudo chmod 755 /var/sftp/User1
+   sudo chown sftpclient1:sftpclient1 /var/sftp/User1/Upload
+   
+** Open the ssh configuration file and add the following lines for each user created : example for user 1
+.. code-block:: console
+   sudo nano /etc/ssh/sshd_config
+   
+** Paste the following lines at the end of the configuration file : example for user 1
+.. code-block:: console
+   Match User sftpclient1
+          ChrootDirectory /var/sftp/User1
+          X11Forwarding no
+          AllowTcpForwarding no
+          PermitTTY no
+          ForceCommand internal-sftp
+
+** Restart your ssh :
+.. code-block:: console
+   sudo systemctl restart ssh
+   
+* Step 4 : Run app :
+
+** Our  LAN (Local Area Network) for the test
+.. image:: Images/Group10.png
