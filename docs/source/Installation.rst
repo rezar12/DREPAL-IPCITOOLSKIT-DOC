@@ -303,7 +303,8 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
 
    sudo nano /etc/ssh/sshd_config
       
-   - Paste the following lines at the end of the configuration file : example for user 1
+
+-- Paste the following lines at the end of the configuration file : example for user 1
 
 .. code-block:: console
 
@@ -314,7 +315,7 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
           PermitTTY no
           ForceCommand internal-sftp
 
-   - Restart your ssh 
+-- Restart your ssh 
    
 .. code-block:: console
 
@@ -322,7 +323,7 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
    
 - Step 4 : Run app :
 
-   - Our  LAN (Local Area Network) for the test
+-- Our  LAN (Local Area Network) for the test
    
 .. image:: Images/DiaglocalNet.png
 
