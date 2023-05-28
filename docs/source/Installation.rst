@@ -246,13 +246,13 @@ change the default port in the ``"DREPAL-IPCINGSTOOLSKIT/.streamlit/config.toml"
 
 - Step 3 : Create SFTP server on your server
 
-**- Instal ssh**
+   - Instal ssh
+
 .. code-block:: console
 
    sudo apt install ssh
 
-
-**- Enable and Start ssh**
+   - Enable and Start ssh
    
 .. code-block:: console
 
