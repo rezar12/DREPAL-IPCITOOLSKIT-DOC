@@ -301,9 +301,13 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
           ForceCommand internal-sftp
 
    - Restart your ssh :
+   
 .. code-block:: console
    sudo systemctl restart ssh
    
 - Step 4 : Run app :
+
    - Our  LAN (Local Area Network) for the test
+   
 .. image:: Images/DiaglocalNet.png
+
