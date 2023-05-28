@@ -10,7 +10,7 @@ System requirements
 
 Operating system: Ubuntu 20.04.5 LTS and update version (especially all Linux versions based on the Debian distribution).
 System architecture: Linux- 64-bit x86.
-Minimum ~ 2.5 GB disk space to download and install.
+Minimum ~ 2.5 GB disk space to download and install.The memory resources required for analyses using DREPAL-IPCINGSTOOLSKIT may vary depending on the size and complexity of the sequencing data being processed. For small sequencing datasets (size in MB), a minimum of 16-32 GB RAM is recommended. However, as datasets increase in size, or when performing memory-intensive operations, it may be necessary to allocate more memory. The amount of memory required for specific analyses in DREPAL-IPCINGSTOOLSKIT is often influenced by factors such as the number of samples, read depth and genome size.For our analyses, we used a server equipped with the following resources. These included 2TB of disk space, which enabled us to store and manage large volumes of sequencing data efficiently. In terms of memory, we allocated 64GB of RAM, which enabled us to process memory-intensive operations and meet the various computational requirements of the analysis modules. The server was equipped with an Intel Xeon(R) 4208 processor, 16 cores at 2.16 GHz each.  
 
 Setup process
 ~~~~~~~~~~~~~~
@@ -211,12 +211,8 @@ Use the following command to start the server :
 
 .. code-block:: console
 
-   streamlit run APP/app.py --server.maxUploadSize=4200
+   streamlit run APP/app.py
 
-
-.. warning::
-   
-   The maximum size allowed for uploading files is about **4 GB** ``"--server.maxUploadSize"``. We recommend that you avoid uploading files that exceed this limit to        ensure optimal application performance. When uploading large files, please consider the available memory on your system. Large files, especially those larger      than **3GB**, can overload RAM and cause the server to crash. In such cases, it may be necessary to restart the server to continue using the application.
 
 .. _Browser:
 
@@ -228,3 +224,9 @@ Open your browser and paste the link below in the search bar.
 .. code-block:: console
 
    http://localhost:8501
+   
+.. note::
+**If you want to use the app with several people on your local network, you can continue with the following configuration**
+
+* example of a schema for deploying DREPAL-IPCINGSTOOLSKIT on a local network :
+
