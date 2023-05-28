@@ -246,34 +246,32 @@ change the default port in the ``"DREPAL-IPCINGSTOOLSKIT/.streamlit/config.toml"
 
 - Step 3 : Create SFTP server on your server
 
-#. Instal ssh
+1. Instal ssh
 
 .. code-block:: console
 
    sudo apt install ssh
 
-#. Enable and Start ssh
-   
-   
-   
+2. Enable and Start ssh
+     
 .. code-block:: console
 
    sudo systemctl enable ssh
    sudo systemctl start ssh
    
-#. check that your ssh is activated**
+3. check that your ssh is activated**
    
 .. code-block:: console
 
    sudo systemctl status ssh
 
-#. Create sftp group
+4. Create sftp group
    
 .. code-block:: console
 
    sudo addgroup sftp
  
-#. Create sftp user for each instance : example for user 1
+5. Create sftp user for each instance : example for user 1
 
 .. code-block:: console
 
@@ -282,13 +280,13 @@ change the default port in the ``"DREPAL-IPCINGSTOOLSKIT/.streamlit/config.toml"
 .. note::
 the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the number of users to be created.As in the example above, if ``"sftpclient1"`` is the first user, the next users will be ``"sftpclient2"``, ... ``"sftpclientn"`` or n is the last user.This will apply to future orders :
 
-#. Add users to the sftp group : example for user 1
+6. Add users to the sftp group : example for user 1
 
 .. code-block:: console
 
    sudo usermod -a -G sftp sftpclient1
    
-#. Create the access directory for each user  : example for user 1
+7. Create the access directory for each user  : example for user 1
 
 .. code-block:: console
 
@@ -297,14 +295,14 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
    sudo chmod 755 /var/sftp/User1
    sudo chown sftpclient1:sftpclient1 /var/sftp/User1/Upload
    
-#. Open the ssh configuration file and add the following lines for each user created : example for user 1
+8. Open the ssh configuration file and add the following lines for each user created : example for user 1
 
 .. code-block:: console
 
    sudo nano /etc/ssh/sshd_config
       
 
-#. Paste the following lines at the end of the configuration file : example for user 1
+9. Paste the following lines at the end of the configuration file : example for user 1
 
 .. code-block:: console
 
@@ -315,7 +313,7 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
           PermitTTY no
           ForceCommand internal-sftp
 
-#. Restart your ssh 
+10. Restart your ssh 
    
 .. code-block:: console
 
