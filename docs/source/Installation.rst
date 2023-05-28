@@ -231,62 +231,63 @@ Open your browser and paste the link below in the search bar.
 Deploy DREPAL-IPCINGSTOOLSKIT for many users
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* example of a schema for deploying DREPAL-IPCINGSTOOLSKIT on a local network :
+- example of a schema for deploying DREPAL-IPCINGSTOOLSKIT on a local network :
 
 .. image:: Images/Group10.png
 
 
-* Step 1 : Creates many instances
+- Step 1 : Creates many instances
 
 creates several instances of DREPAL-IPCINGSTOOLSKIT on your server *(duplicate and rename)* example for three instances:
 ``"DREPAL-IPCINGSTOOLSKIT8501"`` ``"DREPAL-IPCINGSTOOLSKIT8502"`` and ``"DREPAL-IPCINGSTOOLSKIT8503"``. 8501.8502 and 8503 will be the ports allocated to these different instances.
 
-* Step 2 : Assign a unique port to each instances
+- Step 2 : Assign a unique port to each instances
 
 change the default port in the ``"DREPAL-IPCINGSTOOLSKIT/.streamlit/config.toml"`` file ``"(serverPort = 8501)"`` to the port you choose for the instance you are configuring.
 
-* Step 3 : Create SFTP server on your server
+- Step 3 : Create SFTP server on your server
 
-   ** Instal ssh
+   - Instal ssh
 .. code-block:: console
    sudo apt install ssh
 
-   ** Enable and Start ssh 
+   - Enable and Start ssh 
 .. code-block:: console
    sudo systemctl enable ssh
    sudo systemctl start ssh
    
-   ** check that your ssh is activated
+   - check that your ssh is activated
 .. code-block:: console
    sudo systemctl status ssh
 
-   ** Create sftp group
+   - Create sftp group
 .. code-block:: console
    sudo addgroup sftp
  
-   ** Create sftp user for each instance : example for user 1
+   - Create sftp user for each instance : example for user 1
 .. code-block:: console
    sudo adduser sftpclient1
 
 .. note::
 the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the number of users to be created.As in the example above, if ``"sftpclient1"`` is the first user, the next users will be ``"sftpclient2"``, ... ``"sftpclientn"`` or n is the last user.This will apply to future orders :
 
-   ** Add users to the sftp group : example for user 1
+   - Add users to the sftp group : example for user 1
 .. code-block:: console
    sudo usermod -a -G sftp sftpclient1
    
-   ** Create the access directory for each user  : example for user 1
+   
+   - Create the access directory for each user  : example for user 1
 .. code-block:: console
    sudo mkdir -p /var/sftp/User1/Upload
    sudo chown root:root /var/sftp/User1
    sudo chmod 755 /var/sftp/User1
    sudo chown sftpclient1:sftpclient1 /var/sftp/User1/Upload
    
-   ** Open the ssh configuration file and add the following lines for each user created : example for user 1
+   - Open the ssh configuration file and add the following lines for each user created : example for user 1
 .. code-block:: console
    sudo nano /etc/ssh/sshd_config
    
-   ** Paste the following lines at the end of the configuration file : example for user 1
+   - Paste the following lines at the end of the configuration file : example for user 1
 .. code-block:: console
    Match User sftpclient1
           ChrootDirectory /var/sftp/User1
@@ -295,11 +296,10 @@ the number of instances of DREPAL-IPCINGSTOOLSKIT must be identical to the numbe
           PermitTTY no
           ForceCommand internal-sftp
 
-   ** Restart your ssh :
+   - Restart your ssh :
 .. code-block:: console
    sudo systemctl restart ssh
    
-* Step 4 : Run app :
-
-   ** Our  LAN (Local Area Network) for the test
+- Step 4 : Run app :
+   - Our  LAN (Local Area Network) for the test
 .. image:: Images/DiaglocalNet.png
