@@ -18,7 +18,7 @@ Operations menu
 In the menu you will find all possible operations (see table of available operations), from importing files to emptying the analysis directory.
 
 .. image:: Images/operation.png
-  :width: 280
+  :width: 200
   :alt: Operations menu
 
 .. Note::
