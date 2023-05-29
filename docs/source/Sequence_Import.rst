@@ -38,7 +38,13 @@ the first import method is the most conventional and consists of using the uploa
 Method 2
 ~~~~~~~~~
 
-The second method consists of importing a ``"tst"`` file containing the ``"ftp"`` link column of the Paired-End files from the NCBI.
+The second method consists of importing a ``"tsv"`` file containing the ``"ftp"`` link column of the Paired-End files from the EBI.
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+|run_accession  | fastq_ftp                                                                                                                                     |
++===============+===============================================================================================================================================+
+| SRR19140360   |   ftp.sra.ebi.ac.uk/vol1/fastq/SRR191/060/SRR19140360/SRR19140360_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR191/060/SRR19140360/SRR19140360_2.fastq.gz           |
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+
 
 
 Method 3
