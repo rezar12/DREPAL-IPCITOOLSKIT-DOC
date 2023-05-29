@@ -67,7 +67,13 @@ The third method allows users to upload files larger than 4Gb. It consists in ga
 
 
 .. note::
-  .
+  In the case of sftp configurations, the link to be pasted when importing files larger than 4GB is as follows:
+  ``"/var/sftp/User1/Upload"`` where *User1* is a user created on the server during sftp configuration..
+
+.. image:: Images/sftpuploaderup.png
+  :width: 500
+  :alt: Ressource Disk
+
 
 References Import (fasta files)
 --------------------------------
