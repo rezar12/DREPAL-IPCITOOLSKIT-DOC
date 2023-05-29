@@ -45,7 +45,8 @@ The second method consists of importing a ``"tsv"`` file containing the ``"ftp"`
   :alt: main seq import
   
 - tsv example :
-  .. image:: Images/tsv.png
+
+.. image:: Images/tsv.png
   :width: 500
   :alt: main seq import
 
