@@ -65,6 +65,10 @@ The third method allows users to upload files larger than 4Gb. It consists in ga
   :width: 500
   :alt: Ressource Disk
 
+
+.. note::
+  .
+
 References Import (fasta files)
 --------------------------------
 
