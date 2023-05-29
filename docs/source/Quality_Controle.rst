@@ -20,7 +20,7 @@ Visualisation
 Quality is displayed using the **Fastqc** tool.To start the visualization with DREPAL-IPCINGSTOOLSKIT, click on the ``"Start"`` button.Once the operation is completed, you will be able to download the results and review them to make crucial decisions for trimming.
 
 .. image:: Images/downloadrepportup.png
-  :width: 280
+  :width: 520
   :alt: RFastqc and open repport
 
 Trimming
