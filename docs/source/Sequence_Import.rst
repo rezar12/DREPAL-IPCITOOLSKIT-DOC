@@ -78,6 +78,9 @@ The third method allows users to upload files larger than 4Gb. It consists in ga
 References Import (fasta files)
 --------------------------------
 
-This diagram gives you an overview of the available disk space on the server for your analyses, consult it after each analysis to establish efficient resource management.
+For reference imports, the accepted format is ``"fasta"``.
 
+.. image:: Images/sftpuploaderup.png
+  :width: 500
+  :alt: Ressource Disk
 
