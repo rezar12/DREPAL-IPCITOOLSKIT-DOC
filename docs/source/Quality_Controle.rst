@@ -33,4 +33,10 @@ Quality is displayed using the **Fastqc** tool.To start the visualization with D
 Trimming
 ---------
 
-This diagram gives you an overview of the available disk space on the server for your analyses, consult it after each analysis to establish efficient resource management.
+After visualizing the quality of the reads, trimming will help improve the quality of your reads. If you find your reads to be of good quality, you may choose to skip this operation. However, if you determine that trimming is necessary, enter the trimming parameters. Trimming is performed using the Trim-Galore tool.
+Click on the ``"Apply"`` button to initiate the trimming operation.
+
+.. image:: Images/FastqcRepaftertrimrp.png
+  :width: 520
+  :alt: Fastqc and open repport
+
