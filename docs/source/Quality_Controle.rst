@@ -23,7 +23,7 @@ Quality is displayed using the **Fastqc** tool.To start the visualization with D
   :width: 520
   :alt: Fastqc and open repport
 
-- Example of FastQC Report
+- FastQC Report
 
 .. image:: Images/FastqcRepaftertrimrp.png
   :width: 520
