@@ -40,3 +40,5 @@ Click on the ``"Apply"`` button to initiate the trimming operation.
   :width: 520
   :alt: Fastqc and open repport
 
+.. note::
+  After trimming, visualize the quality of the reads once again to ensure that the trimming operation has been applied correctly.
