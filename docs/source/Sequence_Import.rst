@@ -38,7 +38,7 @@ the first import method is the most conventional and consists of using the uploa
 Method 2
 ~~~~~~~~~
 
-The second method consists of importing a ``"tsv"`` file containing the ``"ftp"`` link column of the Paired-End files from the NCBI.
+The second method consists of importing a ``"txt"`` file containing the ``"ftp"`` link column of the Paired-End files from the NCBI.
 
 
 Method 3
