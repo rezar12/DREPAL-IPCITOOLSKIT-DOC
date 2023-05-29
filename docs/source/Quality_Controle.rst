@@ -36,7 +36,7 @@ Trimming
 After visualizing the quality of the reads, trimming will help improve the quality of your reads. If you find your reads to be of good quality, you may choose to skip this operation. However, if you determine that trimming is necessary, enter the trimming parameters. Trimming is performed using the Trim-Galore tool.
 Click on the ``"Apply"`` button to initiate the trimming operation.
 
-.. image:: Images/FastqcRepaftertrimrp.png
+.. image:: Images/trim_galoreTrimmingsamplerp.png
   :width: 520
   :alt: Fastqc and open repport
 
