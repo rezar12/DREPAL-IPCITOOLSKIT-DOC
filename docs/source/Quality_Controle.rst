@@ -21,7 +21,14 @@ Quality is displayed using the **Fastqc** tool.To start the visualization with D
 
 .. image:: Images/downloadrepportup.png
   :width: 520
-  :alt: RFastqc and open repport
+  :alt: Fastqc and open repport
+
+- Example of FastQC Report
+
+.. image:: Images/downloadrepportup.png
+  :width: 520
+  :alt: Fastqc and open repport
+
 
 Trimming
 ---------
