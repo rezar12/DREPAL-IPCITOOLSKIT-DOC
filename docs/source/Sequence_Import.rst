@@ -72,7 +72,7 @@ The third method allows users to upload files larger than 4Gb. It consists in ga
 
 .. image:: Images/sftpuploaderup.png
   :width: 500
-  :alt: Ressource Disk
+  :alt: sftp
  
 
 References Import (fasta files)
@@ -80,7 +80,7 @@ References Import (fasta files)
 
 For reference imports, the accepted format is ``"fasta"``.
 
-.. image:: Images/sftpuploaderup.png
+.. image:: Images/
   :width: 500
-  :alt: Ressource Disk
+  :alt: reference import
 
