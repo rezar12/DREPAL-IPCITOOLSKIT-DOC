@@ -54,10 +54,14 @@ The second method consists of importing a ``"tsv"`` file containing the ``"ftp"`
 Method 3
 ~~~~~~~~~
 
-The third method allows users to upload files larger than 4Gb. It consists in gathering these files "fastq" or "fastq.gz" in a repertory then to paste the path of those in the zone text then to click on button televersé so that your files are imported into DREPAL-IPCINGSTOOLSKIT.if you don't work directly on the server, then the "sftp" configuration during installation will be very useful. From your Filezilla client you can upload your files.
+The third method allows users to upload files larger than 4Gb. It consists in gathering these files "fastq" or "fastq.gz" in a repertory then to paste the path of those in the zone text then to click on button televersé so that your files are imported into DREPAL-IPCINGSTOOLSKIT.if you don't work directly on the server, then the ``"sftp"`` configuration during installation will be very useful. From your Filezilla client you can upload your files.
 
-.. image:: Images/usagefree.jpg
-  :width: 280
+.. image:: Images/importmorethan4gb.png
+  :width: 500
+  :alt: Ressource Disk
+  
+.. image:: Images/fillezillauploader.png
+  :width: 500
   :alt: Ressource Disk
 
 References Import (fasta files)
