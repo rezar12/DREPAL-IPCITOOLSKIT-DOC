@@ -2,15 +2,22 @@
 Quality Controle
 ===============
 
-In the menu you will find all possible operations (see table of available operations), from importing files to emptying the analysis directory.
+Assessing the quality of the data resulting from high-throughput sequencing is the first step to take before embarking on bioinformatics analyses.
+In DREPAL-IPCINGSTOOLSKIT you have one option dedicated to visualising the quality of reads and another for trimming reads.
 
-.. Note::
-  DREPAL-IPCINGSTOOLSKIT is made up of autumn pipelines but to be executed sequentially, i.e. certain operations are conditioned by the result of those which precede them.
+.. image:: Images/cd.jpg
+  :width: 280
+  :alt: Quality Controle big screen
+  
+If you haven't imported any sequences, you will receive these error messages. Please go back to the sequence import screen and upload your sequences.
 
+.. image:: Images/cd.jpg
+  :width: 280
+  :alt: Quality control no sequence import
 
 Visualisation
 --------------
-In the menu you will find all possible operations (see table of available operations), from importing files to emptying the analysis directory.
+Quality is displayed using the **Fastqc** tool.To start the visualization with DREPAL-IPCINGSTOOLSKIT, click on the ``"Start"`` button.Once the operation is completed, you will be able to download the results and review them to make crucial decisions for trimming.
 
 .. image:: Images/usagefree.jpg
   :width: 280
