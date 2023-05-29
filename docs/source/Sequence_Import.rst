@@ -40,7 +40,12 @@ Method 2
 
 The second method consists of importing a ``"tsv"`` file containing the ``"ftp"`` link column of the Paired-End files from the EBI.
 
-.. image:: Images/importless4gb.png
+.. image:: Images/ebiftpimport.png
+  :width: 500
+  :alt: main seq import
+  
+- tsv example :
+  .. image:: Images/tsv.png
   :width: 500
   :alt: main seq import
 
