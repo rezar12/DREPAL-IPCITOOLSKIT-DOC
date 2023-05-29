@@ -2,11 +2,9 @@
 Reference Indexed
 ==================
 
-In the menu you will find all possible operations (see table of available operations), from importing files to emptying the analysis directory.
+The indexing of host and pathogen references facilitates alignment. One advantage of DREPAL-IPCINGSTOOLSKIT is that when a reference is indexed, it is added to a table, avoiding the need to re-import a reference that is already present in the table.
 
 .. image:: Images/usagefree.jpg
   :width: 280
   :alt: Ressource Disk
 
-.. Note::
-  DREPAL-IPCINGSTOOLSKIT is made up of autumn pipelines but to be executed sequentially, i.e. certain operations are conditioned by the result of those which precede them.
