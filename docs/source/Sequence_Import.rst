@@ -71,7 +71,7 @@ The third method allows users to upload files larger than 4Gb. It consists in ga
 References Import (fasta files)
 --------------------------------
 
-For reference imports, the accepted format is ``"fasta"``.
+For reference imports, the accepted format is ``"fasta"``.Select your references and wait until the upload is complete.
 
 .. image:: Images/refimportinprogress.png
   :alt: reference import in progress
