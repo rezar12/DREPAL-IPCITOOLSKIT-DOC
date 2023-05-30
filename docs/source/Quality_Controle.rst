@@ -5,7 +5,7 @@ Quality Controle
 Assessing the quality of the data resulting from high-throughput sequencing is the first step to take before embarking on bioinformatics analyses.
 In DREPAL-IPCINGSTOOLSKIT you have one option dedicated to visualising the quality of reads and another for trimming reads.
 
-.. image:: Images/cd.jpg
+.. image:: Images/BigscreenQC.png
   :alt: Quality Controle big screen
   
 If you haven't imported any sequences, you will receive these error messages. Please go back to the sequence import screen and upload your sequences.
