@@ -19,4 +19,7 @@ Once the indexing process is complete, press the ``"R"`` *(refresh)* key to add 
 Repeat the same process to add new references to the table.
   
 .. image:: Images/listofrefindexed.png
-  :alt: tables all references
+  :alt: Tables all references
+  
+.. note::
+  Indexing a reference can take more or less time depending on its size.
