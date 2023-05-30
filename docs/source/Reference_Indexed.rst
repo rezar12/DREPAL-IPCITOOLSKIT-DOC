@@ -15,6 +15,7 @@ Once the indexing process is complete, press the ``"R"`` *(refresh)* key to add 
   :alt: Index tables
   
   
+  
 Repeat the same process to add new references to the table.
   
 .. image:: Images/listofrefindexed.png
