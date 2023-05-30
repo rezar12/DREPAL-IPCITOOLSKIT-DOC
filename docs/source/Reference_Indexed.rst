@@ -14,7 +14,8 @@ Once the indexing process is complete, press the ``"R"`` *(refresh)* key to add 
 .. image:: Images/refreshtable.png
   :alt: Index tables
   
-  Repeat the same process to add new references to the table.
   
-  .. image:: Images/listofrefindexed.png
+Repeat the same process to add new references to the table.
+  
+.. image:: Images/listofrefindexed.png
   :alt: tables all references
