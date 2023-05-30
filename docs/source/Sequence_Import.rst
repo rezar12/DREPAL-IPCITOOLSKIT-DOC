@@ -5,7 +5,6 @@ Sequence Import
 All the analyses in DREPAL-IPCINGSTOOLSKIT are based on the import of sequences from clinical isolates and references.
 
 .. image:: Images/seqimport.png
-  :width: 500
   :alt: main seq import
 
 Clinical Isolates (fastq,gz)
@@ -74,6 +73,8 @@ References Import (fasta files)
 
 For reference imports, the accepted format is ``"fasta"``.
 
-.. image:: Images/
+.. image:: Images/refimportinprogress.png
   :alt: reference import
 
+.. image:: Images/refimportend.png
+  :alt: reference import
