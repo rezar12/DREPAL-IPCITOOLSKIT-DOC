@@ -8,7 +8,7 @@ The main panel will allow you to carry out all your analyses according to the op
    Sequence_Import
    Quality_Controle
    Reference_Indexed
-   Host_substract
+   Host_subtract
    Pathogen_Extraction
    Variant_Calling
    Mutation_Matrix
