@@ -1,7 +1,7 @@
 Pathogen Extraction
 ===================
 
-In the menu you will find all possible operations (see table of available operations), from importing files to emptying the analysis directory.
+The pathogen extraction operation consists of conserving the parts of our sequences that correspond to the pathogen. As in the host subtraction operation, select the corresponding reference then click on "Start".
 
-.. Note::
-  DREPAL-IPCINGSTOOLSKIT is made up of autumn pipelines but to be executed sequentially, i.e. certain operations are conditioned by the result of those which precede   them.
+.. Image:: Images/Pathoextrac
+ 
