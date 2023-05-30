@@ -11,3 +11,8 @@ Select your host and click on ``"Start"``.
 
 .. Note::
   Above all, don't confuse references. If you have made a mistake (confusing the host with the pathogen). Start the process again by selecting the correct reference.
+
+* Illustration of the operation pipeline
+
+.. image:: Images/hotesubtractpipe.png
+  :alt: Host Substract pipepline
