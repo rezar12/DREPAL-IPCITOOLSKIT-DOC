@@ -8,5 +8,5 @@ The pathogen extraction operation consists of conserving the parts of our sequen
  
 Illustration of the operation pipeline
 
-.. Image:: Images/pathoextracpipe.png
+.. Image:: Images/pathoextractpipe.png
    :alt: Pathogen extract pipeline
