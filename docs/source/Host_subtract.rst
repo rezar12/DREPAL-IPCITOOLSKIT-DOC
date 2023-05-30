@@ -2,11 +2,12 @@
 Host Substract
 ===============
 
-In the menu you will find all possible operations (see table of available operations), from importing files to emptying the analysis directory.
+Host subtraction is an operation that consists of removing the host part of our sequences so that mapping onto the pathogen sequence is more efficient.
+Select your host and click on "Start".
 
 .. image:: Images/usagefree.jpg
   :width: 280
   :alt: Ressource Disk
 
 .. Note::
-  DREPAL-IPCINGSTOOLSKIT is made up of autumn pipelines but to be executed sequentially, i.e. certain operations are conditioned by the result of those which precede them.
+  Above all, don't confuse references. If you have made a mistake (confusing the host with the pathogen). Start the process again by selecting the correct reference.
