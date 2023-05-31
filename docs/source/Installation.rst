@@ -243,7 +243,7 @@ creates several instances of DREPAL-IPCINGSTOOLSKIT on your server *(duplicate a
 - Step 2 : Assign a unique port to each instances
 
 change the default port in the ``"DREPAL-IPCINGSTOOLSKIT/.streamlit/config.toml"`` file 
-``"(serverPort = 8501)"`` to the port you choose for the instance you are configuring.
+``"(port = 8501) and (serverPort = 8501)"`` to the port you choose for the instance you are configuring.
 
 - Step 3 : Create SFTP server on your server
 
