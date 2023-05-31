@@ -10,7 +10,7 @@ In DREPAL-IPCINGSTOOLSKIT there is an indicator which allows you to see if a tas
    :alt: running
    
    
- - All available operations of DREPAL-IPCINGSTOOLSKIT :
+- All available operations of DREPAL-IPCINGSTOOLSKIT :
  
 .. toctree::
 
