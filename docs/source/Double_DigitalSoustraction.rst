@@ -13,7 +13,7 @@ double digital subtraction is an operation that consists of unmapping the host f
 
 Once you have selected the references (host and pathogen), you can choose the number of times you wish to apply digital subtraction to the sequence you select via the "selectbox" containing the IDs of your sequences. Once these parameters have been entered, click on the "Start" button to launch the process.
 
-**Viewing statistics on a sequence**
+- **Viewing statistics on a sequence**
 
 .. image:: Images/KDDS.png
   :alt: Ressource Disk
