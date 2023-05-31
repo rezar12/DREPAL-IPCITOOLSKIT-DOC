@@ -7,5 +7,5 @@ double digital subtraction is an operation that consists of unmapping the host f
 .. image:: Images/KDDSapplynew.png
   :alt: Ressource Disk
 
-.. Note::
-  DREPAL-IPCINGSTOOLSKIT is made up of autumn pipelines but to be executed sequentially, i.e. certain operations are conditioned by the result of those which precede them.
+.. warning::
+  always select the host before the pathogen  
