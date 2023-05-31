@@ -5,7 +5,7 @@ Host Substract
 Host subtraction is an operation that consists of removing the host part of our sequences so that mapping onto the pathogen sequence is more efficient.
 Select your host and click on ``"Start"``.
 
-.. image:: Images/hostsubtract.png
+.. image:: Images/hostsubtractsuccess.png
   :alt: Host Substract
 
 .. Note::
