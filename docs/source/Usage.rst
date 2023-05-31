@@ -55,7 +55,7 @@ click on save and go to New project to connect.
 PRESENTATION OF THE DIFFERENT PANELS
 -------------------------------------
 
-* all panels
+* DREPAL-IPCINGSTOOLSKIT screen
 .. image:: Images/Group8.png
   :width: 650
   :alt: New project screen 
