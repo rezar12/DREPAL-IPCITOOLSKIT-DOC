@@ -8,7 +8,7 @@ double digital subtraction is an operation that consists of unmapping the host f
   :alt: Ressource Disk
 
 .. warning::
-  always select the host before the pathogen  
+  always select the host before the pathogen.
 
 
 Once you have selected the references (host and pathogen), you can choose the number of times you wish to apply digital subtraction to the sequence you select via the "selectbox" containing the IDs of your sequences. Once these parameters have been entered, click on the "Start" button to launch the process.
@@ -17,3 +17,6 @@ Once you have selected the references (host and pathogen), you can choose the nu
 
 .. image:: Images/KDDS.png
   :alt: Ressource Disk
+
+.. note::
+  In this example, our sequence is devoid of the host, hence the fact that it is made up solely of pathogens and other pathogens on the pie chart.
