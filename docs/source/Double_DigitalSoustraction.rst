@@ -2,7 +2,7 @@
 Doudle Digital Soustraction
 ============================
 
-Is optional the menu you will find all possible operations (see table of available operations), from importing files to emptying the analysis directory.
+double digital subtraction is an operation that consists of unmapping the host followed by mapping the pathogen on a given sequence. After these two operations, we run statistics on the files to determine the shares for the host, the pathogen and the others.
 
 .. image:: Images/usagefree.jpg
   :width: 280
