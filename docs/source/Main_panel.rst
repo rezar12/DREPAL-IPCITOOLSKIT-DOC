@@ -9,6 +9,9 @@ In DREPAL-IPCINGSTOOLSKIT there is an indicator which allows you to see if a tas
 .. image:: Images/runit.png
    :alt: running
    
+   
+ - All available operations of DREPAL-IPCINGSTOOLSKIT :
+ 
 .. toctree::
 
    Sequence_Import
